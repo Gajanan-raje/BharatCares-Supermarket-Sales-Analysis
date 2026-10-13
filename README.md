@@ -41,7 +41,7 @@ The project loads supermarket sales data, checks it for missing or incorrect val
 | [`requirements.txt`](requirements.txt) | Python libraries needed |
 | [`Gajanan_Raje_ProjectReport.docx`](Gajanan_Raje_ProjectReport.docx) | Full project report |
 | `README.md` | This file |
-| `1_Sales_by_City.png` to `7_Correlation_Heatmap.png` | The 7 charts from the analysis |
+| `1_Total_Sales_by_City.png` to `7_Correlation_Heatmap.png` | The 7 charts from the analysis |
 
 ## Setup and Run
 
@@ -83,22 +83,22 @@ Keep `supermarket_sales.csv` in the same folder as the notebook.
 ## Charts
 
 ### Sales by City
-![Sales by City](1_Sales_by_City.png)
+![Sales by City](1_Total_Sales_by_City.png)
 
 ### Sales by Category
-![Sales by Category](2_Sales_by_Category.png)
+![Sales by Category](2_Total_Sales_by_Category.png)
 
 ### Top 10 Products
-![Top 10 Products](3_Top10_Products.png)
+![Top 10 Products](3_Top_10_Products_by_Sales.png)
 
 ### Monthly Sales
-![Monthly Sales](4_Monthly_Sales.png)
+![Monthly Sales](4_Monthly_Sales_July_is_a_partial_month.png)
 
 ### Payment Method and Customer Type
-![Payment Method and Customer Type](5_Payment_and_CustomerType.png)
+![Payment Method and Customer Type](5_Share_of_Transactions_by_Payment_Method.png)
 
 ### Rating Distribution
-![Rating Distribution](6_Rating_Distribution.png)
+![Rating Distribution](6_Distribution_of_Customer_Ratings.png)
 
 ### Correlation Heatmap
 ![Correlation Heatmap](7_Correlation_Heatmap.png)
@@ -118,4 +118,4 @@ Keep `supermarket_sales.csv` in the same folder as the notebook.
 ## Future Work
 - Forecast monthly sales with time-series models.
 - Build an interactive dashboard for store managers.
--
+
